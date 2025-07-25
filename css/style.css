@@ -1,0 +1,7 @@
+#hero {
+    background-image: url(../images/green-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
