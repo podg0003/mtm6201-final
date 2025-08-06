@@ -1,7 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root{
+    --dark-orange: #C35A4C;
+    --light-green: #86B440;
+    --header-color: #C74358;
+    --dark-green: #3E6A17;
+    --purple: #7C5379;
+    --light-pink: #FAD0DF;
+}
+
 #hero {
-    background-image: url(../images/green-banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/green-banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    color: white;
+}
+
+.photo{
+    height: 245px;
+    width: 350px;
+    object-fit: cover;
+}
+
+h1, h2{
+    font-family: halant;
+    font-weight: 600;
+    
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 34px;
+}
+
+p{
+    font-family: nunito;
+    font-size: 18px;
+}
+
+i{
+    font-size: 50px;
+    color: #FD5895;
+}
+
+
+/* #hero h1{
+    max-width: 20rem;
+}
+ 
+#hero p{
+    max-width: 21rem;
+} */
+
+.card h2{
+    color: var(--header-color);
+}
+
+.card p{
+    color: var(--dark-green);
+    font-weight: 600;
+}
+
+#about h2{
+    font-size: 48px;
+}
+
+#about{
+    background-color: var(--dark-orange);
+}
+
+footer #project{
+    background-color: var(--light-green);
+    border: none;
+}
+
+footer #hello{
+    background-color: var(--dark-green);
+    border: none;
+}
+
+.footer-text{
+    
+}
+.social-icons{
+    display: flex;
+    text-decoration: none;
+    color: var(--purple);
+    align-items: center;
+    font-weight: 600;
+    
+
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.social-icons i{
+    font-size: 35px;
+    color: var(--purple);
+}
+
+/* .icon-circle{
+    background-color: var(--purple);
+    color: white;
+    border-radius: 60%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+.card-body .btn {
+    background-color: var(--light-green);
+    border: none;
+ }
+
+
+#about-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blue-banner.jpg);
+    background: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+.values p{
+    font-weight: 500;
+}
+
+.values{
+    background-color: var(--dark-orange);
+}
+.learn-more{
+    color: var(--dark-orange);
+}
+#in-touch{
+    background-color: var(--purple);
+    color: white;
+}
+
+
+#services-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/purple-banner.jpg);
+    background: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
 }
