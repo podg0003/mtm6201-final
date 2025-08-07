@@ -2,7 +2,7 @@
 
 ## File requirements:
 
-1.  read-only design in Figma []()
+1.  Figma Design File [Website Design](https://www.figma.com/design/dMbX2o6juHTk8Qv5UZhr1p/dev-student-sample-file?node-id=0-1&t=hATvmPbcNxBEJgsG-1)
 ---
 2.  Assets and resources:
     -Images for banner from Unsplash, artist: Paul Blenkhorn

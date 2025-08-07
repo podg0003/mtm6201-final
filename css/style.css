@@ -1,15 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
-:root{
+:root {
     --dark-orange: #C35A4C;
     --light-green: #86B440;
     --header-color: #C74358;
     --dark-green: #3E6A17;
     --purple: #7C5379;
     --light-pink: #FAD0DF;
+    --neon-pink: #FD5895;
+}
+.navbar-toggler-icon{
+    color: var(--dark-green)
 }
 
+.contact-btn{
+    color: var(--neon-pink);
+    border-color: var(--neon-pink);
+}
+
+.contact-btn:hover{
+    background-color: var(--neon-pink);
+    color: white;
+    border: none;
+}
+
+.nav-link{
+    color: var(--dark-green);
+}
+
+.nav-link.active {
+    color: var(--dark-green) !important;
+    font-weight: 600;
+    border-bottom: 3px solid var(--dark-green);
+
+}
+
+.nav-link:hover{
+    color: var(--dark-green) !important;
+    font-weight: 600;
+    border-bottom: 3px solid var(--dark-green);
+    transition: ease 0.02s;
+}
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/green-banner.jpg);
     background-position: center;
@@ -19,112 +51,122 @@
     color: white;
 }
 
-.photo{
+.title {
+    color: var(--dark-green);
+}
+
+.logo {
+    margin: 10px;
+    width: 100px;
+}
+
+footer .logo {
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        margin: 10px;
+        width: 125px;
+    }
+}
+
+.photo {
     height: 245px;
     width: 350px;
     object-fit: cover;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: halant;
     font-weight: 600;
-    
+
 }
 
-h1{
+h1 {
     font-size: 36px;
 }
-h2{
+
+h2 {
     font-size: 34px;
 }
 
-p{
+p {
     font-family: nunito;
     font-size: 18px;
 }
 
-i{
+i {
     font-size: 50px;
     color: #FD5895;
 }
 
 
-/* #hero h1{
-    max-width: 20rem;
-}
- 
-#hero p{
-    max-width: 21rem;
-} */
-
-.card h2{
+.card h2 {
     color: var(--header-color);
 }
 
-.card p{
+.card p {
     color: var(--dark-green);
     font-weight: 600;
 }
 
-#about h2{
+#about h2 {
     font-size: 48px;
 }
 
-#about{
+#about {
     background-color: var(--dark-orange);
 }
 
-footer #project{
+#project {
     background-color: var(--light-green);
     border: none;
 }
 
-footer #hello{
+#project:hover{
+    background-color: var(--header-color);
+}
+
+#hello {
     background-color: var(--dark-green);
     border: none;
 }
 
-.footer-text{
-    
+#hello:hover{
+    background-color: var(--dark-orange);
 }
-.social-icons{
+
+
+.social-icons {
     display: flex;
     text-decoration: none;
     color: var(--purple);
     align-items: center;
     font-weight: 600;
-    
+
 
 }
 
-.social-icons a{
+.social-icons a {
     text-decoration: none;
     color: var(--purple);
 }
 
-.social-icons i{
+.social-icons i {
     font-size: 35px;
     color: var(--purple);
 }
 
-/* .icon-circle{
-    background-color: var(--purple);
-    color: white;
-    border-radius: 60%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
-.card-body .btn {
+.card-btn {
     background-color: var(--light-green);
     border: none;
- }
+}
 
 
-#about-page{
+
+#about-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blue-banner.jpg);
     background: linear-gradient();
     background-position: center;
@@ -134,23 +176,24 @@ footer #hello{
     color: white;
 }
 
-.values p{
+.values p {
     font-weight: 500;
 }
 
-.values{
+.values {
     background-color: var(--dark-orange);
 }
-.learn-more{
+
+.learn-more {
     color: var(--dark-orange);
 }
-#in-touch{
+
+#in-touch {
     background-color: var(--purple);
     color: white;
 }
 
-
-#services-page{
+#services-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/purple-banner.jpg);
     background: linear-gradient();
     background-position: center;
